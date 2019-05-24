@@ -1,2 +1,2 @@
-Ceci est un fichier texte README
-Le projet repositorySIMPLE vise à mettre en application les notions apprises lors de la formation Git et GitHub sur Openclassrooms
+D'autre modifications importantes seront apportées à ce fichier dès le mois d'avril 2019
+
