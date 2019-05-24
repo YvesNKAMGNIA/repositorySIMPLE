@@ -1,0 +1,18 @@
+<form action="https://p.monetico-services.com/paiement.cgi"
+		method="post" id="PaymentRequest">
+		<input type="hidden" name="version" value="3.0" />
+		<input type="hidden" name="TPE" value="1234567" />
+		<input type="hidden" name="date" value="16/04/2013:15:25:38" />
+		<input type="hidden" name="montant" value="0.01CAD" />
+		<input type="hidden" name="reference" value=" votreRF12345" />
+		<input type="hidden" name="MAC" value="ca66baf34e37db1a184d05cbcd1ca3a53e1cc045" />
+		<input type="hidden" name="url_retour_ok"
+		value="http://url.retour.com/ok.cgi?order_ref=votreRF12345" />
+		<input type="hidden" name="url_retour_err"
+		value="http://url.retour.com/err.cgi?order_ref=votreRF12345" />
+		<input type="hidden" name="lgue" value="FR" />
+		<input type="hidden" name="societe" value="monSite1" />
+		<input type="hidden" name="texte-libre" value="Ceci est un test" />
+		<input type="hidden" name="mail" value="internaute@email.com" />
+		<input type="submit" name="bouton" value="Paiement Carte de credit" />
+	</form>
